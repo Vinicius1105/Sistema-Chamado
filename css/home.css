@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    margin-top: 20%;
+    margin-left: 20%;
+    color: aliceblue;
+}
+
+button{
+    display: flex;
+    padding: 15px;
+    margin: 50px;
+    margin-left: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    background-color: rgb(128, 18, 18);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.Barra{
+        height: 50px;
+        background-color: rgb(128, 18, 18);
+}
+
+body{
+    background-color: rgb(105, 22, 22);
+}
