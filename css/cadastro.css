@@ -4,9 +4,14 @@
     box-sizing: border-box;
     }
 
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
 .container{
     display: flex;
-    margin-left: 10%;
     gap: 10px;
     align-items: center;
     height: 100vh;
@@ -17,9 +22,9 @@ form{
     display: flex;
     flex-direction: column;
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 30px;
     gap: 5px;
-    width: 1000%;
+    width: 600px;
 }    
 
 label{
@@ -47,3 +52,4 @@ button{
     align-items: center;
     width: 100%;
 }
+
