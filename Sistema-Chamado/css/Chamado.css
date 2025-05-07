@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(85, 16, 16);
+}
+
+img{
+   height: 40px; 
+}
+
+/* NAVBAR */
+.navbar {    
+    justify-content: space-between;
+    padding: 5px;
+    display: flex; 
+}
+
+/* COR NAVBAR */
+.bg-body-tertiary{
+    background-color: rgb(128, 11, 11) !important;
+
+}
+
+/* COR FONTE NAVBAR */
+.nav-link{
+    color: rgb(104, 24, 24) !important;
+}
+
+/* ÍCONE NAVBAR */
+.fasolid{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.container{
+    margin-top: 90px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
